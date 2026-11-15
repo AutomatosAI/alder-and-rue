@@ -10,25 +10,25 @@ and the template name **Alder and Rue** (the name becomes the slug
 
 Validate: `node <budstack-template-skill>/scripts/validate-template.mjs .`
 
-## Images are stand-ins
+## Images
 
-The handoff describes nine photographs and supplies none. The files in
-`assets/` are stand-ins from another template so the page can be previewed.
-Replace each file, keeping its name, with the image the design calls for. One
-treatment throughout: cool daylight, pale grey-blue backdrop, no faces.
+The handoff described nine photographs and supplied none. The eight in
+`assets/` were generated to those descriptions (Higgsfield Soul 2, November
+2026), in one treatment: cool daylight, pale grey-blue backdrop, no faces. To
+replace one, keep its file name.
 
 | File | Size | Image |
 |---|---|---|
-| `hero-1.jpg` | 1200×1500 | Pharmacist's hands labelling an amber jar |
-| `hero-2.jpg` | 1200×1200 | Oil bottle and dropper |
-| `hero-3.jpg` | 1200×1200 | Clinician on a video call, seen from behind |
-| `card-flower.jpg` | 800×600 | Dried flower in an amber jar |
-| `card-oils.jpg` | 800×600 | Oil bottle with dropper |
-| `card-cartridges.jpg` | 800×600 | Vaporiser cartridges in a tray |
-| `card-devices.jpg` | 800×600 | Medical vaporiser beside its case |
-| `showcase.jpg` | 1200×800 | Pharmacy dispensing bench |
+| `hero-1.jpg` | 1200×1600 | Pharmacist's hands labelling an amber jar |
+| `hero-2.jpg` | 1400×1400 | Oil bottle and dropper |
+| `hero-3.jpg` | 1400×1400 | Clinician at a laptop, seen from behind |
+| `card-flower.jpg` | 1200×900 | Dried flower in an amber jar |
+| `card-oils.jpg` | 1200×900 | Oil bottle with dropper |
+| `card-cartridges.jpg` | 1200×900 | Cartridges in a tray |
+| `card-devices.jpg` | 1200×900 | Medical vaporiser in its case |
+| `showcase.jpg` | 1800×1200 | Pharmacy dispensing bench |
 
-`logo.svg` is the mark from the design and is final.
+`logo.svg` is the mark from the design.
 
 ## Not in this template yet
 
