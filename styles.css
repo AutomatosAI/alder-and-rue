@@ -1,0 +1,16 @@
+/* Alder & Rue. Colours, type, radius, shadows and spacing come from the design
+   system in defaults.json. This file sets the label above each heading in the
+   accent typeface, with a small square marker before it. */
+
+.template-alder-and-rue [data-ui~="eyebrow"] {
+  font-family: var(--tenant-font-accent, ui-monospace, monospace);
+}
+
+.template-alder-and-rue [data-ui~="eyebrow"]::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 0.75em;
+  background: hsl(var(--tenant-color-accent));
+}

@@ -1,0 +1,160 @@
+{
+  "template": "alder-and-rue",
+  "slug": "alder-and-rue",
+  "logoPath": "assets/logo.svg",
+  "heroImagePath": "assets/hero-1.jpg",
+  "designSystem": {
+    "schemaVersion": 2,
+    "colors": {
+      "primary": "229 48% 30%",
+      "secondary": "228 33% 91%",
+      "accent": "39 67% 55%",
+      "background": "240 12% 97%",
+      "surface": "0 0% 100%",
+      "text": "225 21% 22%",
+      "heading": "227 44% 14%",
+      "border": "226 21% 88%"
+    },
+    "typography": {
+      "fontFamily": {
+        "body": "'IBM Plex Sans', system-ui, -apple-system, sans-serif",
+        "heading": "'Hanken Grotesk', system-ui, -apple-system, sans-serif",
+        "accent": "'IBM Plex Mono', ui-monospace, monospace"
+      },
+      "fontSize": {
+        "base": "16",
+        "hero": "64",
+        "section": "40"
+      },
+      "fontWeight": {
+        "body": "400",
+        "heading": "600"
+      },
+      "letterSpacing": "normal",
+      "heading": {
+        "letterSpacing": "tight",
+        "transform": "none",
+        "lineHeight": "tight"
+      }
+    },
+    "borderRadius": {
+      "container": "small",
+      "button": "rounded"
+    },
+    "shadows": {
+      "card": "soft",
+      "tint": "brand"
+    },
+    "spacing": {
+      "scale": "comfortable"
+    },
+    "button": {
+      "size": "large"
+    },
+    "glassEffect": "none",
+    "buttonHoverEffect": "lift",
+    "animationType": "fade-up",
+    "dividerStyle": "none"
+  },
+  "pageContent": {
+    "home": {
+      "heroTitle": "Considered care, from first consultation to repeat prescription.",
+      "heroDescription": "Alder & Rue is a clinician-led service. Check whether you may be eligible, speak with a registered specialist, and have any prescription dispensed by our own pharmacy.",
+      "heroCtaText": "Check your eligibility",
+      "heroAlignment": "left",
+      "heroHeight": "large",
+      "heroOverlayStyle": "gradient-dark",
+      "heroOverlayOpacity": 50
+    },
+    "educationHotspots": [],
+    "logoPlacement": {
+      "navPosition": "left",
+      "navSize": 40,
+      "showBusinessName": true,
+      "heroShowLogo": false,
+      "heroX": 50,
+      "heroY": 50,
+      "heroSize": 80,
+      "heroStyle": "plain",
+      "footerShowLogo": true
+    }
+  },
+  "navigation": {
+    "links": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "How it works",
+        "href": "/#process"
+      },
+      {
+        "label": "Products",
+        "href": "/products"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Questions",
+        "href": "/#faq"
+      }
+    ],
+    "cta": {
+      "label": "Check eligibility",
+      "href": "/consultation"
+    },
+    "showCart": true,
+    "colorOverrides": {
+      "accent": "229 48% 30%"
+    }
+  },
+  "footer": {
+    "partnerMark": "full",
+    "tagline": "Prescription medical cannabis, clinician-led and pharmacy-dispensed.",
+    "disclaimer": "Alder & Rue supplies prescription-only medicines to registered patients. Nothing on this site is medical advice, and no product is available without a valid prescription.",
+    "sections": [
+      {
+        "title": "Clinic",
+        "links": [
+          {
+            "label": "Eligibility",
+            "href": "/consultation"
+          },
+          {
+            "label": "How it works",
+            "href": "/#process"
+          },
+          {
+            "label": "About",
+            "href": "/about"
+          },
+          {
+            "label": "Blog",
+            "href": "/the-wire"
+          }
+        ]
+      },
+      {
+        "title": "Shop",
+        "links": [
+          {
+            "label": "Products",
+            "href": "/products"
+          },
+          {
+            "label": "Your account",
+            "href": "/dashboard"
+          },
+          {
+            "label": "Delivery",
+            "href": "/#faq"
+          }
+        ]
+      }
+    ],
+    "socialLinks": []
+  }
+}

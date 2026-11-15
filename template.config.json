@@ -1,0 +1,23 @@
+{
+  "id": "alder-and-rue",
+  "slug": "alder-and-rue",
+  "name": "Alder & Rue",
+  "description": "A clinician-led clinic with its own pharmacy: indigo on cool grey, grotesque headings and a mono label face. Calm, plain and exact, for brands that want to read like a good pharmacy.",
+  "category": "medical",
+  "tags": [
+    "medical",
+    "clinic",
+    "pharmacy",
+    "indigo",
+    "grotesque",
+    "design-system-v2"
+  ],
+  "features": [
+    "Three-image split hero",
+    "Scrolling assurance strip on a dark band",
+    "Outlined value cards and a four-step process on a tinted band",
+    "Full-width pharmacy image with text over it"
+  ],
+  "author": "BudStacks Platform",
+  "version": "1.0.0"
+}

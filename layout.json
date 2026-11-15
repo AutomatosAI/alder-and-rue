@@ -1,0 +1,309 @@
+{
+  "version": "1.0.0",
+  "navigation": "NavFull",
+  "navigationConfig": {
+    "links": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "How it works",
+        "href": "/#process"
+      },
+      {
+        "label": "Products",
+        "href": "/products"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Questions",
+        "href": "/#faq"
+      }
+    ],
+    "cta": {
+      "label": "Check eligibility",
+      "href": "/consultation"
+    },
+    "showCart": true,
+    "colorOverrides": {
+      "accent": "229 48% 30%"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "HeroSplitImages",
+      "config": {
+        "eyebrow": "Prescription medical cannabis",
+        "title": "Considered care, from first consultation to repeat prescription.",
+        "description": "Alder & Rue is a clinician-led service. Check whether you may be eligible, speak with a registered specialist, and have any prescription dispensed by our own pharmacy.",
+        "ctaText": "Check your eligibility",
+        "ctaHref": "/consultation",
+        "secondaryCtaText": "How it works",
+        "secondaryCtaHref": "/#process",
+        "layout": "left",
+        "imageUrl": "assets/hero-1.jpg",
+        "imageUrl2": "assets/hero-2.jpg",
+        "imageUrl3": "assets/hero-3.jpg"
+      }
+    },
+    {
+      "id": "assurances",
+      "type": "TextMarquee",
+      "config": {
+        "text": "Clinician-led consultations  ·  Pharmacist-dispensed  ·  Discreet tracked delivery  ·  Scheduled reviews",
+        "icon": "sparkle",
+        "fontStyle": "uppercase-sans",
+        "fontSize": "sm",
+        "speed": 40,
+        "repeat": 4
+      },
+      "colorOverrides": {
+        "background": "227 44% 14%",
+        "surface": "227 44% 14%",
+        "text": "240 12% 97%",
+        "heading": "0 0% 100%",
+        "border": "227 30% 24%"
+      }
+    },
+    {
+      "id": "why",
+      "type": "ValueProps",
+      "config": {
+        "eyebrow": "Why Alder & Rue",
+        "heading": "Run like a clinic, because it is one.",
+        "textAlign": "left",
+        "variant": "bordered",
+        "iconStyle": "bare",
+        "align": "left",
+        "density": "normal",
+        "items": [
+          {
+            "icon": "Stethoscope",
+            "title": "Clinician-led",
+            "description": "Every prescription starts with a consultation with a registered specialist clinician."
+          },
+          {
+            "icon": "Cross",
+            "title": "Pharmacy-dispensed",
+            "description": "Medicines are dispensed by our licensed pharmacy against your valid prescription."
+          },
+          {
+            "icon": "Package",
+            "title": "Discreet delivery",
+            "description": "Plain, tracked packaging brought to your door and signed for on receipt."
+          },
+          {
+            "icon": "Calendar",
+            "title": "Scheduled reviews",
+            "description": "Regular follow-ups so your clinician can review your prescription with you."
+          }
+        ]
+      }
+    },
+    {
+      "id": "process",
+      "type": "ProcessSteps",
+      "config": {
+        "eyebrow": "How it works",
+        "heading": "Four steps, each with a clinician or pharmacist behind it.",
+        "textAlign": "left",
+        "orientation": "horizontal",
+        "density": "spacious",
+        "steps": [
+          {
+            "icon": "ClipboardList",
+            "title": "Check your eligibility",
+            "description": "Answer a short questionnaire about your condition and the treatments you have already tried."
+          },
+          {
+            "icon": "MessageSquare",
+            "title": "Meet your clinician",
+            "description": "A video consultation to go through your history and decide whether a prescription is appropriate."
+          },
+          {
+            "icon": "Pill",
+            "title": "Prescription to pharmacy",
+            "description": "If you are prescribed, the prescription goes straight to our pharmacy and your items appear in your account."
+          },
+          {
+            "icon": "Calendar",
+            "title": "Follow-up",
+            "description": "Scheduled reviews keep your clinician informed and your prescription current."
+          }
+        ]
+      },
+      "colorOverrides": {
+        "background": "228 33% 91%",
+        "surface": "228 33% 91%"
+      }
+    },
+    {
+      "id": "formulary",
+      "type": "ProductShowcase",
+      "config": {
+        "eyebrow": "The formulary",
+        "heading": "Browse the range. Order once you hold a prescription.",
+        "subtitle": "Every item is dispensed only against a valid prescription from your clinician.",
+        "dataSource": "manual",
+        "showButton": "no",
+        "density": "normal",
+        "categories": [
+          {
+            "title": "Dried flower",
+            "description": "Whole flower for use with a medical vaporiser.",
+            "href": "/products",
+            "imageUrl": "assets/card-flower.jpg"
+          },
+          {
+            "title": "Oils",
+            "description": "Measured oral oils in dropper bottles.",
+            "href": "/products",
+            "imageUrl": "assets/card-oils.jpg"
+          },
+          {
+            "title": "Cartridges",
+            "description": "Pre-filled cartridges for approved devices.",
+            "href": "/products",
+            "imageUrl": "assets/card-cartridges.jpg"
+          },
+          {
+            "title": "Devices",
+            "description": "Medical vaporisers and the parts that go with them.",
+            "href": "/products",
+            "imageUrl": "assets/card-devices.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pharmacy",
+      "type": "ImageShowcase",
+      "config": {
+        "eyebrow": "Our pharmacy",
+        "heading": "Dispensed by pharmacists. Checked by a second pair of hands.",
+        "content": "Your prescription never leaves our care between the clinic and your door.",
+        "textAlign": "left",
+        "ctaText": "About the clinic",
+        "ctaHref": "/about",
+        "imageUrl": "assets/showcase.jpg",
+        "overlayStyle": "solid",
+        "overlayOpacity": "60",
+        "theme": "dark"
+      },
+      "colorOverrides": {
+        "background": "227 44% 14%",
+        "text": "228 29% 93%",
+        "heading": "0 0% 100%",
+        "surface": "227 40% 19%"
+      }
+    },
+    {
+      "id": "faq",
+      "type": "FAQ",
+      "config": {
+        "eyebrow": "Questions",
+        "heading": "Before you book",
+        "subtitle": "Plain answers to what patients ask us first.",
+        "density": "normal",
+        "items": [
+          {
+            "question": "Who can be considered for a prescription?",
+            "answer": "Eligibility is decided by a clinician, case by case. As a starting point you will usually need a diagnosed condition and to have tried other licensed treatments first. The eligibility check tells you whether a consultation is the right next step."
+          },
+          {
+            "question": "Do I need a referral from my own doctor?",
+            "answer": "No referral is needed to start the eligibility check. Your clinician may ask for a summary of your medical records before the consultation."
+          },
+          {
+            "question": "What happens in the consultation?",
+            "answer": "You speak with a registered specialist by video. They review your history and current medicines, answer your questions, and decide with you whether a prescription is appropriate."
+          },
+          {
+            "question": "How is my prescription delivered?",
+            "answer": "Our pharmacy sends it in plain, tracked packaging. A signature is needed when it arrives."
+          },
+          {
+            "question": "Can I order without a prescription?",
+            "answer": "No. You can browse the range, but items can only be ordered against a valid prescription held on your account."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "CTABanner",
+      "config": {
+        "heading": "Find out whether a consultation is right for you.",
+        "subtitle": "The eligibility check takes a few minutes, and there is no obligation to book.",
+        "textAlign": "center",
+        "ctaText": "Check your eligibility",
+        "ctaHref": "/consultation",
+        "footnote": "Prescription-only. A clinician decides whether treatment is appropriate.",
+        "density": "normal"
+      },
+      "colorOverrides": {
+        "background": "229 48% 30%",
+        "secondary": "229 48% 30%",
+        "text": "228 29% 93%",
+        "heading": "0 0% 100%",
+        "surface": "229 46% 24%"
+      }
+    }
+  ],
+  "footer": "FooterFull",
+  "footerConfig": {
+    "partnerMark": "full",
+    "tagline": "Prescription medical cannabis, clinician-led and pharmacy-dispensed.",
+    "disclaimer": "Alder & Rue supplies prescription-only medicines to registered patients. Nothing on this site is medical advice, and no product is available without a valid prescription.",
+    "sections": [
+      {
+        "title": "Clinic",
+        "links": [
+          {
+            "label": "Eligibility",
+            "href": "/consultation"
+          },
+          {
+            "label": "How it works",
+            "href": "/#process"
+          },
+          {
+            "label": "About",
+            "href": "/about"
+          },
+          {
+            "label": "Blog",
+            "href": "/the-wire"
+          }
+        ]
+      },
+      {
+        "title": "Shop",
+        "links": [
+          {
+            "label": "Products",
+            "href": "/products"
+          },
+          {
+            "label": "Your account",
+            "href": "/dashboard"
+          },
+          {
+            "label": "Delivery",
+            "href": "/#faq"
+          }
+        ]
+      }
+    ],
+    "socialLinks": []
+  },
+  "settings": {
+    "wrapperClass": "template-alder-and-rue",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+  }
+}
